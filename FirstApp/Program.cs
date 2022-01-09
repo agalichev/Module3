@@ -6,7 +6,10 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            const string MyName = "Александр";
+            Console.WriteLine("Hello "+MyName);
+            Console.WriteLine("\u0023");
+            Console.ReadKey();
         }
     }
 }
