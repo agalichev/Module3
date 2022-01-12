@@ -6,6 +6,8 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
+            DaysOfWeek MyFavoriteDay;
+            MyFavoriteDay = DaysOfWeek.Monday;
             const string MyName = "Alexander";
             const byte Age = 32;
             bool HaveIAPet = false;
@@ -17,6 +19,7 @@ namespace FirstApp
             Console.WriteLine("\u0023");
             Console.WriteLine("IntMin {0} ", int.MinValue);
             Console.WriteLine("IntMax {0} ", int.MaxValue);
+            Console.WriteLine(MyFavoriteDay);
             Console.ReadKey();
         }
     }
