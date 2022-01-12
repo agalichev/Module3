@@ -20,7 +20,15 @@ namespace FirstApp
             Console.WriteLine("IntMin {0} ", int.MinValue);
             Console.WriteLine("IntMax {0} ", int.MaxValue);
             Console.WriteLine(MyFavoriteDay);
+            Console.WriteLine("UShortMin = {0} UShortMax = {1}",ushort.MinValue, ushort.MaxValue);
             Console.ReadKey();
         }
+    }
+
+    enum Semaphore : ushort
+    {
+        Red = 100,
+        Yellow = 200,
+        Green = 300
     }
 }
