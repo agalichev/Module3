@@ -12,6 +12,8 @@ namespace FirstApp
             const byte Age = 32;
             bool HaveIAPet = false;
             const byte ShoeSize = 41;
+            double result = 10 % 3;
+
             Console.WriteLine("My name is " + MyName);
             Console.WriteLine("My age is {0}", Age);
             Console.WriteLine("Do I have a pet? {0}", HaveIAPet);
@@ -21,7 +23,10 @@ namespace FirstApp
             Console.WriteLine("IntMax {0} ", int.MaxValue);
             Console.WriteLine(MyFavoriteDay);
             Console.WriteLine("UShortMin = {0} UShortMax = {1}",ushort.MinValue, ushort.MaxValue);
+            Console.WriteLine("10 % 3 = {0}", result);
             Console.ReadKey();
+
+
         }
     }
 
