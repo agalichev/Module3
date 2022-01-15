@@ -26,10 +26,12 @@ namespace FirstApp
             Console.WriteLine("UShortMin = {0} UShortMax = {1}",ushort.MinValue, ushort.MaxValue);
             Console.WriteLine("10 % 3 = {0}", result);
 
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
             Console.Write("Enter your age: ");
-            int age; 
-            bool iscorrect = int.TryParse(Console.ReadLine(), out age);
-            Console.WriteLine("Your age is {0}. It's {1}", age, iscorrect);
+            int age =checked((byte) int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1}", name, age);
+
 
             Console.ReadKey();
 
