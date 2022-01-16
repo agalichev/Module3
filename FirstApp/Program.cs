@@ -6,9 +6,7 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            DaysOfWeek MyFavoriteDay;
-            MyFavoriteDay = DaysOfWeek.Monday;
-            const string MyName = "Alexander";
+          /*  const string MyName = "Alexander";
             const byte Age = 32;
             bool HaveIAPet = false;
             const byte ShoeSize = 41;
@@ -22,17 +20,17 @@ namespace FirstApp
             Console.WriteLine("\u0023");
             Console.WriteLine("IntMin {0} ", int.MinValue);
             Console.WriteLine("IntMax {0} ", int.MaxValue);
-            Console.WriteLine(MyFavoriteDay);
             Console.WriteLine("UShortMin = {0} UShortMax = {1}",ushort.MinValue, ushort.MaxValue);
-            Console.WriteLine("10 % 3 = {0}", result);
+            Console.WriteLine("10 % 3 = {0}", result);*/
 
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
-            int age =checked((byte) int.Parse(Console.ReadLine()));
+            var age = int.Parse(Console.ReadLine());
             Console.WriteLine("Your name is {0} and age is {1}", name, age);
-
-
+            Console.Write("Enter your birthdate: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Your birthdate is {0}", birthdate);
             Console.ReadKey();
 
 
